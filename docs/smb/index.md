@@ -15,7 +15,9 @@ SMB, que significa "Server Message Block", é um protocolo de rede usado princip
 5-`Autenticação e Autorização:` Inclui mecanismos para autenticar usuários e controlar seu acesso a recursos na rede.
 ## Instalação
 ![smb](https://i.ibb.co/x2ZCknL/Screenshot-2023-12-28-19-37-03.png)
+
 Após a instalação, você precisa configurar o Samba.
+
 ![s2](https://i.ibb.co/xjkygmX/Screenshot-2023-12-28-19-39-15.png)
 
 ## Configuração
@@ -29,12 +31,12 @@ Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.
 ![S](https://i.ibb.co/rxfctD9/Screenshot-2023-11-30-19-38-34.png)
 ![S1](https://i.ibb.co/k5NDhW8/Screenshot-2023-11-30-19-38-56.png)
 ![S2](https://i.ibb.co/wc6msb0/Screenshot-2023-11-30-19-39-21.png)
+
+## Teste
+
 ![S3](https://i.ibb.co/vLTXnmS/Screenshot-2023-11-30-20-32-11.png)
 ![S4](https://i.ibb.co/PGCsTg8/Screenshot-2023-11-30-20-41-20.png)
 ![S5](https://i.ibb.co/fQmvDp5/Screenshot-2023-11-30-20-42-36.png)
 ![S6](https://i.ibb.co/KNT4rsy/Screenshot-2023-11-30-20-43-04.png)
 ![S7](https://i.ibb.co/Wsz10fW/Screenshot-2023-11-30-20-45-50.png)
-
-## Teste
-
 
