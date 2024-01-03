@@ -1,6 +1,6 @@
 # LDAP
 
-LDAP (Lightweight Directory Access Protocol) é um protocolo aberto, independente de fornecedor, que fornece um mecanismo para acessar e manter serviços de diretório distribuídos, como informações de usuário, grupo e permissão, em uma rede. 
+O *LDAP* (Lightweight Directory Access Protocol) é um protocolo aberto, independente de fornecedor, que fornece um mecanismo para acessar e manter serviços de diretório distribuídos, como informações de usuário, grupo e permissão, em uma rede. 
 
 ## Características Principais do LDAP:
 * `Diretório de Serviços:` O LDAP é usado principalmente para acessar e gerenciar diretórios de serviços, que são conjuntos de informações sobre objetos em uma rede (como usuários, grupos, dispositivos, etc.).

@@ -1,18 +1,18 @@
 # SMB
 
-SMB, que significa "Server Message Block", é um protocolo de rede usado principalmente para o compartilhamento de arquivos, impressoras e portas seriais entre nós em uma rede. É mais conhecido por seu papel central nos sistemas operacionais Windows, mas também é suportado em muitos outros sistemas operacionais.
+O *SMB*, que significa "Server Message Block", é um protocolo de rede usado principalmente para o compartilhamento de arquivos, impressoras e portas seriais entre nós em uma rede. É mais conhecido por seu papel central nos sistemas operacionais Windows, mas também é suportado em muitos outros sistemas operacionais.
 
 ## Principais Características do SMB:
 
-1-`Compartilhamento de Arquivos:` Permite que computadores em uma rede acessem e compartilhem arquivos armazenados em outros computadores na mesma rede. Isso inclui a capacidade de abrir, ler, escrever e fechar arquivos.
+* `Compartilhamento de Arquivos:` Permite que computadores em uma rede acessem e compartilhem arquivos armazenados em outros computadores na mesma rede. Isso inclui a capacidade de abrir, ler, escrever e fechar arquivos.
 
-2-`Compartilhamento de Impressoras:` Permite que impressoras sejam compartilhadas em uma rede, possibilitando que vários usuários imprimam em uma impressora central.
+* `Compartilhamento de Impressoras:` Permite que impressoras sejam compartilhadas em uma rede, possibilitando que vários usuários imprimam em uma impressora central.
 
-3-`Comunicação entre Processos (IPC):` SMB pode ser usado para comunicação entre processos, permitindo que programas em diferentes computadores se comuniquem.
+* `Comunicação entre Processos (IPC):` SMB pode ser usado para comunicação entre processos, permitindo que programas em diferentes computadores se comuniquem.
 
-4-`Navegação de Rede:` Fornece um meio de descobrir outros dispositivos na mesma rede.
+* `Navegação de Rede:` Fornece um meio de descobrir outros dispositivos na mesma rede.
 
-5-`Autenticação e Autorização:` Inclui mecanismos para autenticar usuários e controlar seu acesso a recursos na rede.
+* `Autenticação e Autorização:` Inclui mecanismos para autenticar usuários e controlar seu acesso a recursos na rede.
 ## Instalação
 ![smb](https://i.ibb.co/x2ZCknL/Screenshot-2023-12-28-19-37-03.png)
 

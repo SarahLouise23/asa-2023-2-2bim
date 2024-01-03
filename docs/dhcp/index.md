@@ -1,6 +1,6 @@
 # DHCP
 
-No contexto de redes de computadores, quando falamos sobre o DHCP (Dynamic Host Configuration Protocol) distribuindo um intervalo de endereços IP e reservando endereços IP fixos fora desse intervalo
+No contexto de redes de computadores, quando falamos sobre o *DHCP* (Dynamic Host Configuration Protocol) distribuindo um intervalo de endereços IP e reservando endereços IP fixos fora desse intervalo
 
 ## Vantagens do DHCP
 * `Automatização:` Reduz a necessidade de configuração manual de cada dispositivo na rede.

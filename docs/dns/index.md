@@ -1,6 +1,6 @@
 # DNS
 
-O DNS, ou Domain Name System (Sistema de Nomes de Domínio), é um componente fundamental da Internet, funcionando como um diretório que permite a tradução de nomes de domínio amigáveis (como 'www.example.com') em endereços IP numéricos (como '192.0.2.1'), que são utilizados pelos computadores para identificar e se comunicar entre si na rede.
+O *DNS*, ou Domain Name System (Sistema de Nomes de Domínio), é um componente fundamental da Internet, funcionando como um diretório que permite a tradução de nomes de domínio amigáveis (como 'www.example.com') em endereços IP numéricos (como '192.0.2.1'), que são utilizados pelos computadores para identificar e se comunicar entre si na rede.
 
 ## Principais Características do DNS
 * `Tradução de Nomes para Endereços IP:` O DNS resolve nomes de domínio para os correspondentes endereços IP, permitindo que os usuários acessem websites e serviços online usando nomes fáceis de lembrar, em vez de endereços IP complexos.
