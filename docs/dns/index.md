@@ -40,4 +40,3 @@ Cinco registros (4 pontos cada):
 ![dns](https://i.ibb.co/6W6753n/Screenshot-2023-12-26-19-19-35.png)
 ![d](https://i.ibb.co/K0NgcFL/Screenshot-2024-01-03-19-37-49.png)
 ![n](https://i.ibb.co/hmsRJtq/Screenshot-2024-01-03-19-38-33.png)
-
