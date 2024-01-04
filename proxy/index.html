@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Sarah Louise">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>PROXY - ASA: Serviços para 2º bimestre</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">ASA: Serviços para 2º bimestre</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Serviços para o 2º bimestre</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dhcp <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../dhcp/">DHCP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dns <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../dns/">DNS</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ldap <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../ldap/">LDAP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proxy <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">PROXY</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Smb <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../smb/">SMB</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../ldap/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../smb/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#proxy">PROXY</a></li>
+            <li><a href="#principais-funcoes-de-um-proxy">Principais Funções de um Proxy:</a></li>
+            <li><a href="#instalacao">Instalação</a></li>
+            <li><a href="#configuracao">Configuração</a></li>
+            <li><a href="#teste">Teste</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="proxy">PROXY</h1>
+<p>Um <em>proxy</em>, em termos de redes de computadores, é um servidor que atua como intermediário entre um usuário e a internet. Quando um computador, smartphone ou outro dispositivo se conecta à internet via proxy, o tráfego de rede é redirecionado através desse servidor proxy. Isso significa que todas as solicitações para acessar sites ou serviços online são primeiro enviadas ao proxy, que então redireciona essas solicitações para o destino apropriado.</p>
+<h2 id="principais-funcoes-de-um-proxy">Principais Funções de um Proxy:</h2>
+<ul>
+<li>
+<p><code>Filtragem de Conteúdo:</code> Proxies podem ser configurados para bloquear ou permitir o acesso a certos sites ou tipos de conteúdo, o que é frequentemente utilizado em ambientes corporativos ou educacionais para restringir o acesso a conteúdo inapropriado ou distrativo.</p>
+</li>
+<li>
+<p><code>Controle e Monitoramento:</code> Em um ambiente corporativo, proxies são usados para monitorar e controlar o uso da internet pelos funcionários, permitindo a implementação de políticas de uso de rede.</p>
+</li>
+<li>
+<p><code>Cache de Conteúdo:</code> Alguns servidores proxy armazenam (cache) cópias de páginas da web frequentemente acessadas. Quando um usuário solicita uma página que está no cache, o proxy pode fornecê-la diretamente, reduzindo o tempo de carregamento e o tráfego na rede.</p>
+</li>
+<li>
+<p><code>Anonimato:</code> Proxies podem ser usados para ocultar o endereço IP real de um usuário, fornecendo anonimato ao navegar na internet. Isso pode ser útil para proteger a privacidade ou contornar restrições geográficas.</p>
+</li>
+<li>
+<p><code>Balanceamento de Carga:</code> Em ambientes com alto tráfego, proxies podem distribuir as solicitações de usuários entre vários servidores, equilibrando a carga e melhorando o desempenho. </p>
+</li>
+</ul>
+<h2 id="instalacao">Instalação</h2>
+<h2 id="configuracao">Configuração</h2>
+<p>Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.</p>
+<p>Fazer a configuração de 4 ACLs distintas, conforme a atividade passada em sala de aula.</p>
+<h2 id="teste">Teste</h2>
+<p><img alt="p" src="https://i.ibb.co/cYHNJzC/Screenshot-2023-11-17-19-35-12.png" />
+<img alt="p1" src="https://i.ibb.co/Xbk6VhT/Screenshot-2023-11-17-19-37-25.png" />
+<img alt="p2" src="https://i.ibb.co/gdzJ77V/Screenshot-2023-11-17-19-42-34.png" />
+<img alt="p3" src="https://i.ibb.co/dQ555hC/Screenshot-2023-11-17-19-43-28.png" />
+<img alt="p4" src="https://i.ibb.co/LxG3kLS/Screenshot-2023-11-17-19-44-40.png" /></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

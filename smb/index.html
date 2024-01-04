@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Sarah Louise">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>SMB - ASA: Serviços para 2º bimestre</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">ASA: Serviços para 2º bimestre</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Serviços para o 2º bimestre</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dhcp <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../dhcp/">DHCP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dns <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../dns/">DNS</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ldap <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../ldap/">LDAP</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proxy <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../proxy/">PROXY</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Smb <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">SMB</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../proxy/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="disabled">
+                                <a rel="prev" >
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#smb">SMB</a></li>
+            <li><a href="#principais-caracteristicas-do-smb">Principais Características do SMB:</a></li>
+            <li><a href="#instalacao">Instalação</a></li>
+            <li><a href="#configuracao">Configuração</a></li>
+            <li><a href="#teste">Teste</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="smb">SMB</h1>
+<p>O <em>SMB</em>, que significa "Server Message Block", é um protocolo de rede usado principalmente para o compartilhamento de arquivos, impressoras e portas seriais entre nós em uma rede. É mais conhecido por seu papel central nos sistemas operacionais Windows, mas também é suportado em muitos outros sistemas operacionais.</p>
+<h2 id="principais-caracteristicas-do-smb">Principais Características do SMB:</h2>
+<ul>
+<li>
+<p><code>Compartilhamento de Arquivos:</code> Permite que computadores em uma rede acessem e compartilhem arquivos armazenados em outros computadores na mesma rede. Isso inclui a capacidade de abrir, ler, escrever e fechar arquivos.</p>
+</li>
+<li>
+<p><code>Compartilhamento de Impressoras:</code> Permite que impressoras sejam compartilhadas em uma rede, possibilitando que vários usuários imprimam em uma impressora central.</p>
+</li>
+<li>
+<p><code>Comunicação entre Processos (IPC):</code> SMB pode ser usado para comunicação entre processos, permitindo que programas em diferentes computadores se comuniquem.</p>
+</li>
+<li>
+<p><code>Navegação de Rede:</code> Fornece um meio de descobrir outros dispositivos na mesma rede.</p>
+</li>
+<li>
+<p><code>Autenticação e Autorização:</code> Inclui mecanismos para autenticar usuários e controlar seu acesso a recursos na rede.</p>
+</li>
+</ul>
+<h2 id="instalacao">Instalação</h2>
+<p><img alt="smb" src="https://i.ibb.co/x2ZCknL/Screenshot-2023-12-28-19-37-03.png" /></p>
+<p>Após a instalação, você precisa configurar o Samba.</p>
+<p><img alt="s2" src="https://i.ibb.co/xjkygmX/Screenshot-2023-12-28-19-39-15.png" /></p>
+<h2 id="configuracao">Configuração</h2>
+<p>Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.</p>
+<ol>
+<li>Criar 2 grupos para dois de seus sobrenomes;</li>
+<li>Criar 4 usuários, dois para cada um dos sobrenomes;</li>
+<li>Compartilhar duas pastas com dois de seus sobrenome, compartilhado para o grupo com o sobrenome correspondente.
+<img alt="ss" src="https://i.ibb.co/934LTfS/Screenshot-2023-12-28-19-43-08.png" />
+<img alt="S" src="https://i.ibb.co/rxfctD9/Screenshot-2023-11-30-19-38-34.png" />
+<img alt="S1" src="https://i.ibb.co/k5NDhW8/Screenshot-2023-11-30-19-38-56.png" />
+<img alt="S2" src="https://i.ibb.co/wc6msb0/Screenshot-2023-11-30-19-39-21.png" /></li>
+</ol>
+<h2 id="teste">Teste</h2>
+<p><img alt="S3" src="https://i.ibb.co/vLTXnmS/Screenshot-2023-11-30-20-32-11.png" />
+<img alt="S4" src="https://i.ibb.co/PGCsTg8/Screenshot-2023-11-30-20-41-20.png" />
+<img alt="S5" src="https://i.ibb.co/fQmvDp5/Screenshot-2023-11-30-20-42-36.png" />
+<img alt="S6" src="https://i.ibb.co/KNT4rsy/Screenshot-2023-11-30-20-43-04.png" />
+<img alt="S7" src="https://i.ibb.co/Wsz10fW/Screenshot-2023-11-30-20-45-50.png" /></p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
