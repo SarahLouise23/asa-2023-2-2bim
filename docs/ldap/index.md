@@ -25,6 +25,7 @@ Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.
 - Mover os grupo `sobrenome2` e seus membros para a OU `rh`.
 
 ## Teste
-![l](https://i.ibb.co/pfKDRHq/Screenshot-2023-12-26-19-37-23.png)
-![l2](https://i.ibb.co/4T6XsZM /Screenshot-2023-12-26-19-38-05.png)
+![l](https://i.ibb.co/pnd1hYr/Screenshot-2024-01-03-21-23-03.png)
+![l2](https://i.ibb.co/QXQ615c/Screenshot-2024-01-03-21-23-30.png)
+![ll](https://i.ibb.co/6tp7gGY/Screenshot-2024-01-03-21-23-46.png)
 
